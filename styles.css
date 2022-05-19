@@ -20,11 +20,35 @@ h1 {
   padding: 13px 0;
 }
 
+i {
+  color: white;
+}
+
 .inputField {
   width: 100%;
   overflow: hidden;
-  font-size: 20px;
   padding:8px 0;
   margin: 8px 0;
   border-bottom: 1px solid #4caf50;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
+
+}
+
+button {
+  color:white;
+  border: 2px solid #4caf50;
+  width: 100%;
+  padding: 5px;
+  background: none;
+  color: white;
+  margin:12px 0;
+  cursor: pointer;
 }
